@@ -13,6 +13,9 @@ A Next.js SaaS application that helps startups and engineering teams audit their
 2. Create `.env.local` and add your `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `RESEND_API_KEY`, `ANTHROPIC_API_KEY`
 3. `npm run dev`
 
+> [!IMPORTANT]
+> **Email Delivery (Resend):** To receive emails properly in your inbox, ensure you provide the same email address that you registered with on resend.com. You should also apply a filter in your email client to prevent the emails from being sent to the spam folder.
+
 ## Deployment Steps
 1. Push to GitHub
 2. Connect to Vercel
@@ -27,4 +30,4 @@ A Next.js SaaS application that helps startups and engineering teams audit their
 5. **Anthropic API vs OpenAI**: Anthropic (Claude 3.5 Sonnet) is preferred for better nuanced writing and personalization in the audit summary.
 
 ## Deployed URL
-[Placeholder URL](https://credex-spend-audit.vercel.app)
+[SpendSense AI Spend Analysis](https://spend-sense-ai-spend-analysis-uqyp.vercel.app/)
